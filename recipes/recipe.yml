@@ -18,14 +18,16 @@ modules:
         destination: / # copies files/system/* (* means everything inside it) into your image's root folder /
 
   - type: dnf
-    #repos:
-    #  copr:
-    #    - atim/starship
+    repos:
+      copr:
+        - lihaohong/yazi
     install:
       packages:
         #- micro
         #- starship
         - syncthing
+        - tmux
+        - yazi
     #remove:
     #  packages:
     #    # example: removing firefox (in favor of the flatpak)
