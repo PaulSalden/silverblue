@@ -23,8 +23,7 @@ modules:
         - lihaohong/yazi
     install:
       packages:
-        #- micro
-        #- starship
+        - btop
         - syncthing
         - tmux
         - yazi
