@@ -50,6 +50,7 @@ modules:
         - hypridle
         - hyprland-guiutils
         - hyprlauncher
+        - hyprsunset
     #remove:
     #  packages:
     #    # example: removing firefox (in favor of the flatpak)
