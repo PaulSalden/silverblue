@@ -21,12 +21,34 @@ modules:
     repos:
       copr:
         - lihaohong/yazi
+        - lionheartp/Hyprland
     install:
       packages:
         - btop
         - syncthing
         - tmux
         - yazi
+
+        ### niri
+        - niri
+        - waybar
+        #- xdg-desktop-portal-wlr
+        #- xdg-desktop-portal-gtk
+        #- alacritty
+        - fuzzel
+        #- swaylock
+        - swayidle
+        - swaybg
+
+        ### hyprland
+        - kitty
+        - hyprland
+        #- waybar
+        - xdg-desktop-portal-hyprland
+        - hyprpaper
+        - hyprlock
+        - hypridle
+        - hyprland-guiutils
     #remove:
     #  packages:
     #    # example: removing firefox (in favor of the flatpak)
