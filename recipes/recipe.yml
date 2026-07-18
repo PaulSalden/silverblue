@@ -50,6 +50,7 @@ modules:
         - hypridle
         - hyprland-guiutils
         - hyprlauncher
+        - hyprshutdown
         - hyprsunset
     #remove:
     #  packages:
