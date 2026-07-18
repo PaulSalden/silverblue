@@ -28,6 +28,7 @@ modules:
       packages:
         - btop
         - syncthing
+        - syncthingtray
         - tmux
         - yazi
 
