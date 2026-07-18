@@ -22,6 +22,8 @@ modules:
       copr:
         - lihaohong/yazi
         - lionheartp/Hyprland
+      files:
+        - https://download.opensuse.org/repositories/home:mkittler/Fedora_44/home:mkittler.repo
     install:
       packages:
         - btop
