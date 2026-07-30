@@ -20,45 +20,45 @@ modules:
   - type: dnf
     repos:
       copr:
-        - lihaohong/yazi
-        - lionheartp/Hyprland
-      files:
-        - https://download.opensuse.org/repositories/home:mkittler/Fedora_44/home:mkittler.repo
+        #- lihaohong/yazi
+        #- lionheartp/Hyprland
+      #files:
+        #- https://download.opensuse.org/repositories/home:mkittler/Fedora_44/home:mkittler.repo
     install:
       packages:
-        - btop
+        #- btop
         - syncthing
-        - syncthingtray
+        #- syncthingtray
         - tmux
-        - yazi
+        #- yazi
 
         ### niri
-        - niri
-        - waybar
-        #- xdg-desktop-portal-wlr
-        #- xdg-desktop-portal-gtk
-        #- alacritty
-        - fuzzel
-        #- swaylock
-        - swayidle
-        - swaybg
+        #- niri
+        #- waybar
+        ##- xdg-desktop-portal-wlr
+        ##- xdg-desktop-portal-gtk
+        ##- alacritty
+        #- fuzzel
+        ##- swaylock
+        #- swayidle
+        #- swaybg
 
         ### hyprland
-        - kitty
-        - hyprland
-        #- waybar
-        - xdg-desktop-portal-hyprland
-        - hyprpaper
-        - hyprlock
-        - hypridle
-        - hyprland-guiutils
-        - hyprlauncher
-        - hyprshutdown
-        - hyprsunset
+        #- kitty
+        #- hyprland
+        ##- waybar
+        #- xdg-desktop-portal-hyprland
+        #- hyprpaper
+        #- hyprlock
+        #- hypridle
+        #- hyprland-guiutils
+        #- hyprlauncher
+        #- hyprshutdown
+        #- hyprsunset
 
         ### sway
-        - sway
-        - swaylock
+        #- sway
+        #- swaylock
     #remove:
     #  packages:
     #    # example: removing firefox (in favor of the flatpak)
