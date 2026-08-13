@@ -20,17 +20,17 @@ modules:
   - type: dnf
     #repos:
       #copr:
-        #- lihaohong/yazi
-        #- lionheartp/Hyprland
+        - lihaohong/yazi
+        - lionheartp/Hyprland
       #files:
-        #- https://download.opensuse.org/repositories/home:mkittler/Fedora_44/home:mkittler.repo
+        - https://download.opensuse.org/repositories/home:mkittler/Fedora_44/home:mkittler.repo
     install:
       packages:
-        #- btop
+        - btop
         - syncthing
-        #- syncthingtray
+        - syncthingtray
         - tmux
-        #- yazi
+        - yazi
 
         ### niri
         #- niri
@@ -44,17 +44,17 @@ modules:
         #- swaybg
 
         ### hyprland
-        #- kitty
-        #- hyprland
-        ##- waybar
-        #- xdg-desktop-portal-hyprland
-        #- hyprpaper
-        #- hyprlock
-        #- hypridle
-        #- hyprland-guiutils
-        #- hyprlauncher
-        #- hyprshutdown
-        #- hyprsunset
+        - kitty
+        - hyprland
+        - waybar
+        - xdg-desktop-portal-hyprland
+        - hyprpaper
+        - hyprlock
+        - hypridle
+        - hyprland-guiutils
+        - hyprlauncher
+        - hyprshutdown
+        - hyprsunset
 
         ### sway
         #- sway
