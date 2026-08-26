@@ -33,15 +33,15 @@ modules:
         - yazi
 
         ### niri
-        #- niri
+        - niri
         #- waybar
         ##- xdg-desktop-portal-wlr
         ##- xdg-desktop-portal-gtk
         ##- alacritty
-        #- fuzzel
+        - fuzzel
         ##- swaylock
-        #- swayidle
-        #- swaybg
+        - swayidle
+        - swaybg
 
         ### hyprland
         - kitty
